@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Stack w="100%" align="center" mt={96}>
+        <Stack w="100%" align="center" mt={{ base: 40, sm: 96 }} px={24}>
           <Image
             src="/ahmad-ahmaro.svg"
             alt="Ahmad Ahmaro logo"
@@ -46,7 +46,12 @@ export default function Home() {
             <Title order={2}>Contact</Title>
             <Text>
               Want to reach out? Check out my{" "}
-              <Anchor href="/resume" target="_blank" color="dark">
+              <Anchor
+                href="/resume"
+                target="_blank"
+                color="dark"
+                td="underline"
+              >
                 Resume
               </Anchor>
               ,{" "}
@@ -54,6 +59,7 @@ export default function Home() {
                 href="https://www.linkedin.com/in/ahmad-ahmaro/"
                 target="_blank"
                 color="dark"
+                td="underline"
               >
                 LinkedIn
               </Anchor>
@@ -62,6 +68,7 @@ export default function Home() {
                 href="https://github.com/ahmadahmaro"
                 target="_blank"
                 color="dark"
+                td="underline"
               >
                 Github
               </Anchor>
