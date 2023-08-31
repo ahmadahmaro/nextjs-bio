@@ -61,7 +61,13 @@ export default function Resume() {
               <td>
                 <Text color="blue">Backend</Text>
               </td>
-              <td>NodeJS, ExpressJS, NestJS, AWS, PostgreSQL, DynamoDB, S3.</td>
+              <td>NodeJS, ExpressJS, NestJS, AWS RDS, PostgreSQL, DynamoDB, S3, MeiliSearch.</td>
+            </tr>
+            <tr>
+              <td>
+                <Text color="blue">DevOps</Text>
+              </td>
+              <td>Docker, Linux, Bash, GitHub Actions, AWS.</td>
             </tr>
             <tr>
               <td>
