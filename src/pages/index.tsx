@@ -38,7 +38,7 @@ export default function Home() {
               radius={50}
             />
             <Text>
-              I&apos;m a full-stack developer skilled in React, NodeJS, AWS, and
+              I&apos;m a full-stack developer skilled in React, NodeJS, Docker, AWS, and
               UI/UX design. Successfully built and deployed scalable projects,
               including GIS solutions. I&apos;m passionate about Frontend
               development and solving problems using tech.
